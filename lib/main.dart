@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_utils_app/page/home.dart';
+import 'package:my_utils_app/page/home/home.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: '我的工具'),
     );
   }
 }
